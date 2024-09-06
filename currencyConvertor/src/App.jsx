@@ -21,14 +21,7 @@ function App() {
     setConvertedAmount(amount* currencyInfo[to])
   }
 
- 
-  // return(
-  //   <>
-  //   <h1 className='text-3xl bg-orange-500'>
-  //     hii
-  //   </h1>
-  //   </>
-  // )
+
 
   return (
     <div
@@ -52,9 +45,7 @@ function App() {
                             amount={amount}
                             currencyOptions={options}
                             selectCurrency={from}
-                            onCurrencyChange={(currency)=>setFrom(currency)
-                        }
-                            
+                            onCurrencyChange={(currency)=>setFrom(currency)}
                             onAmountChange={(amount)=>setAmount(amount)}
                             
                         />
