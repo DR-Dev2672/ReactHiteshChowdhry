@@ -18,7 +18,7 @@ setTodos((prev)=>prev.map(prevTodo=>(prevTodo.id===id?todo:prevTodo)))
 const deleteTodo=(id)=>{
 setTodos((prev)=>prev.filter(prevTodo.id!==id))
 
-// A different code 
+// A different code
 }
 
 
